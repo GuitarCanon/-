@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+body {
+    background-color: #F3F2F3;
+}
+
+
+/*页头*/
+
+#head {
+    padding: 5px 5px 0 35px;
+    background-color: #FFF;
+}
+
+
+/*导航*/
+
+.right-nav ul li {
+    float: right;
+    margin:
+}
+
+.right-nav ul li a {
+    display: block;
+    font-size: 13px;
+    color: #555555;
+    padding: 0 8px;
+    border-right: 1px solid #CCC;
+}
+
+.right-nav ul li:first-child a {
+    border-right: 0;
+}
+
+
+/*搜索框*/
+
+.search-box {
+    height: 90px;
+    /*background-color: pink;*/
+    overflow: hidden;
+    position: relative;
+}
+
+.search-box img {
+    display: block;
+    margin-top: 28px;
+    width: 138px;
+    border: 0;
+}
+
+.serch-box-right {
+    height: 50px;
+    /*background-color: orange;*/
+    position: absolute;
+    left: 150px;
+    top: 15px;
+}
+
+.serch-box-right ul li {
+    float: left;
+    width: 45px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.serch-box-right ul li a {
+    font-family: "微软雅黑";
+    color: #555555;
+}
+
+.serch-box-right form {
+    float: left;
+}
+
+.serch-box-right #search-text {
+    width: 455px;
+    height: 30px;
+    padding-left: 3px;
+    outline: none;
+}
+
+.serch-box-right #search-button {
+    width: 98px;
+    height: 34px;
+    margin-left: -10px;
+}
+
+
+/*决定定位的搜索框*/
+
+#head-copy {
+    width: 100%;
+    background-color: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+}
+
+
+/*图片*/
+
+#main {
+    width: 1240px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+#main .pic {
+    padding: 5px 0 0 5px;
+    float: left;
+}
+
+#main .pic img {
+    width: 200px;
+    border: 0;
+}
